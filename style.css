@@ -7,7 +7,8 @@
 body {
   display: flex;
   font-family: sans-serif;
-  justify-content: center;}
+  justify-content: center;
+}
 
 .pokedex {
   align-items: flex-end;
