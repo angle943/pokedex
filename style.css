@@ -304,6 +304,35 @@ body {
   height: 100%;
   padding: 15px 15px 0;
 }
+.right-container__buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+
+.left-button,
+.right-button,
+.search-button {
+  align-items: center;
+  background: #DEDEDE;
+  border-radius: 3px;
+  border: 2px solid black;
+  box-shadow: 0 0 2px 2px rgba(0,0,0,.3);
+  cursor: pointer;
+  display: flex;
+  font-weight: bold;
+  height: 30px;
+  justify-content: center;
+  text-transform: uppercase;
+  width: 100px;
+}
+
+.left-button:hover,
+.right-button:hover,
+.search-button:hover {
+  background: white;
+}
+
 
 .list-item {
   align-items: center;
